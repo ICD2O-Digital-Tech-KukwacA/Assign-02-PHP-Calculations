@@ -1,4 +1,51 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
+/* Created by: MariaG
+ * Modified by: Kukwac
+ * Created on: March 2022
+ * This CSS file defines the style for index.php
+ * ICS2O-Assign-02-PHP-Calculations
 */
+
+form {
+    background-color: #514d4d;
+    padding: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+h1 {
+    background-color: #051758;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+h3 {
+    background-color: #510534;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+p {
+    width: 80%;
+    margin-left: 10%;
+}
+
+iframe {
+    margin-bottom: 5%;
+    background-color: #1e5614;
+    padding: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+#yellow {
+    background-color: #5b5e0a;
+    padding: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
