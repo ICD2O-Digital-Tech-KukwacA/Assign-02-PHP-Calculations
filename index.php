@@ -26,16 +26,16 @@
 		<!-- form to get the base and height from the user -->
     <form action="./results.php" method="post" target="results">
       <label for="lblRadius">Radius (cm):</label>
-      <input type="text" id="radius" placeholder="Enter the radius (cm)" name="Radius"><br><br>
-      <label for="lblRadius_2">Radius (cm):</label>
+      <input type="text" id="radius1" placeholder="Enter the radius (cm)" name="Radius"><br><br>
+      <label for="lblRadius2">Radius (cm):</label>
       <input type="text" id="radius_2" placeholder="Enter the radius (cm)" name="Radius"><br><br>
       <input type="submit" value="Calculate Area and perimeter">
 		</form>
 
 			<!-- iframe for the results to show on the web page. -->
 			<iframe id="results" name="results">			
-				" The area of the circle is " + $area + "cm<sup>2</sup>"
-        " The perimeter of the circle is " + $perimeter + "cm"
-	    </iframe>
+				The area of the circle is + $area + cm<sup>2</sup>
+        The perimeter of the circle is + $perimeter + cm
+      </iframe>
 	</body>
 </html>
