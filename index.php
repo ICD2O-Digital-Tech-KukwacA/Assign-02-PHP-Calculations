@@ -24,7 +24,7 @@
 			echo "<h3>This program will calculate the area and perimeter of a circle.</h3>";
 		?>
 		<!-- form to get the base and height from the user -->
-    <form action="./results.php" method="post" target="results">
+    <form action="./calculations.php" method="post" target="results">
       <label for="lblRadius">Radius (cm):</label>
       <input type="text" id="radius1" placeholder="Enter the radius (cm)" name="Radius"><br><br>
       <label for="lblRadius2">Radius (cm):</label>
